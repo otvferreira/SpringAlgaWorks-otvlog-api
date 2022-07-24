@@ -1,6 +1,7 @@
 package com.otvprojects.otvlog.domain.model;
 
 import javax.persistence.Column;
+import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -13,8 +14,8 @@ import lombok.Setter;
 
 @Getter
 @Setter
-//@Entity
-@Table(name = "cliente")
+@Entity
+//@Table(name = "cliente")
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
 public class Cliente {
 	
